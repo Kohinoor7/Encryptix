@@ -92,35 +92,3 @@ footer {
     text-align: center;
     clear: both;
 }
-
-  
-  .recipe-grid {
-    max-height: 500px; /* adjust the height to your needs */
-    overflow: hidden;
-  }
-  
-  .show-less {
-    display: none;
-  }
-  
-  .show-more {
-    display: block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .show-less {
-    display: none;
-    margin-top: 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: #fff;
-    cursor: pointer;
-  }
