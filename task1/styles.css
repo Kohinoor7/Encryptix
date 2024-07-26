@@ -95,7 +95,7 @@ footer {
 
   
   .recipe-grid {
-    max-height: 200px; /* adjust the height to your needs */
+    max-height: 500px; /* adjust the height to your needs */
     overflow: hidden;
   }
   
