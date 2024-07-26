@@ -85,7 +85,12 @@ header nav a {
     font-size: 14px;
     margin-bottom: 20px;
 }
+.recipe-text {
 
+    max-height: 200px; /* adjust the height to your needs */
+  
+    overflow: hidden;
+}
 footer {
     background-color: #333;
     color: #fff;
