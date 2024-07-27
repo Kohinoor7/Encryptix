@@ -85,6 +85,15 @@ header nav a {
     margin-bottom: 20px;
 }
 
+section {
+    padding: 2em 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 1em;
+}
+
 #signup{
     text-align: center;
 }
