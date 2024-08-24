@@ -10,20 +10,24 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+        <nav class="navbar">
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="recipe.html" class="navbar-link">Home</a></li>
+                <li class="navbar-item"><a href="#About" class="navbar-link">About</a></li>
+                <li class="navbar-item"><a href="#featured-recipes" class="navbar-link">Recipes</a></li>
+                <li class="navbar-item"><a href="#contact" class="navbar-link">Contact</a></li>
+                <li class="navbar-item"><a href="#signup" class="navbar-link">Signup</a></li>
             </ul>
         </nav>
+       
     </header>
     <main>
         <section class="hero">
-            <h1>Welcome to Delicious Recipes</h1>
+            <h1>Welcome To Delicious Recipes</h1>
             <p>Discover new recipes and cooking techniques to elevate your culinary skills.</p>
-            <button>Explore Recipes</button>
+            <a href="#featured-recipes">
+                <button class="explore-button">Explore Recipes</button>
+            </a>
         </section>
         <section id="About">
             <div class="container">
@@ -32,7 +36,7 @@
                      Explore our site for step-by-step guides, tasty photos, and tips to elevate your cooking.</p>
             </div>
         </section>
-        <section class="featured-recipes">
+        <section id="featured-recipes" class="featured-recipes">
             <h2>Featured Recipes</h2>
             <div class="recipe-grid">
                 <div class="recipe-card">

@@ -6,6 +6,74 @@ body {
     padding: 0;
 }
 
+/* for the navbar */
+.navbar {
+    background-color: #ADD8E6;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 0;     left: 0;
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar-item {
+    margin: 0 1rem;
+}
+
+.navbar-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.navbar-link:hover {
+    background-color: #FFA500;
+    border-radius: 4px;
+}
+
+/* Style For Button */
+.explore-button {
+    background-color: #ADD8E6;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .navbar-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-item {
+        margin: 0.5rem 0;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: #333;
     color: #fff;
